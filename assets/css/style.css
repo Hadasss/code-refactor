@@ -10,6 +10,7 @@ body {
   color: #ffffff;
 }
 
+/* header and navigation */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -47,10 +48,7 @@ header nav a {
   text-decoration: none;
 }
 
-p {
-  font-size: 16px;
-}
-
+/* hero/image */
 .hero {
   height: 800px;
   width: 100%;
@@ -64,10 +62,15 @@ p {
   height: 800px;
 }
 
+/* company main services */
 .services {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
+}
+
+p {
+  font-size: 16px;
 }
 
 .services img {
@@ -98,6 +101,7 @@ p {
   background-color: #0072bb;
 }
 
+/* additional services */
 aside {
   margin-right: 20px;
   padding: 20px;
@@ -129,6 +133,7 @@ aside .cost-management img {
   max-width: 150px;
 }
 
+/* footer */
 footer {
   padding: 30px;
   clear: both;
